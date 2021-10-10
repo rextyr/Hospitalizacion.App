@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wj345ZJ3R2vFhhtGijxTRyPRos/9ya4SUL5rx1wT6ZXBHAq1/0UYBMygzav1tSocqIZISxRICVlcrdV65Yfynw==",
+  "success": true,
+  "projectFilePath": "C:\\Prueba2\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DANIEL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

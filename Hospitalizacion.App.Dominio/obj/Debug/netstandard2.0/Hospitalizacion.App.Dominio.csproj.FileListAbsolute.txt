@@ -1,0 +1,9 @@
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\obj\Debug\netstandard2.0\Hospitalizacion.App.Dominio.csprojAssemblyReference.cache
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\obj\Debug\netstandard2.0\Hospitalizacion.App.Dominio.AssemblyInfoInputs.cache
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\obj\Debug\netstandard2.0\Hospitalizacion.App.Dominio.AssemblyInfo.cs
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\obj\Debug\netstandard2.0\Hospitalizacion.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\bin\Debug\netstandard2.0\Hospitalizacion.App.Dominio.deps.json
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\bin\Debug\netstandard2.0\Hospitalizacion.App.Dominio.dll
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\bin\Debug\netstandard2.0\Hospitalizacion.App.Dominio.pdb
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\obj\Debug\netstandard2.0\Hospitalizacion.App.Dominio.dll
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Dominio\obj\Debug\netstandard2.0\Hospitalizacion.App.Dominio.pdb

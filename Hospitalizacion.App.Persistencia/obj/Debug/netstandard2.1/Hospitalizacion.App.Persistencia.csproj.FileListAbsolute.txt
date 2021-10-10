@@ -1,0 +1,12 @@
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.csprojAssemblyReference.cache
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.deps.json
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.dll
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.pdb
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\netstandard2.1\Hospitalizacion.App.Dominio.dll
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\netstandard2.1\Hospitalizacion.App.Dominio.pdb
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.dll
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\netstandard2.1\Hospitalizacion.App.Persistencia.pdb
