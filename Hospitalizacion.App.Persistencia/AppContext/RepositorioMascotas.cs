@@ -6,13 +6,9 @@ namespace Hospitalizacion.App.Persistencia
 {
     public class RepositorioMascotas : IRepositorioMascotas
     {
-         private readonly AppContext _appContext;
+         private readonly AppContext _appContext= new AppContext();
 
-        public RepositorioMascotas(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
-                  
+         
     MascotaEnferma IRepositorioMascotas.AddMascotaEnferma(MascotaEnferma mascotaEnferma)
         {
           var mascotaEnfermaadicionada = _appContext.MascotasEnfermas.Add(mascotaEnferma);

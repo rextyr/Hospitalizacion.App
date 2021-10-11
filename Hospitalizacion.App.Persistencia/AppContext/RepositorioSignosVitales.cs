@@ -6,12 +6,9 @@ namespace Hospitalizacion.App.Persistencia
 {
     public class RepositorioSignosVitales:IRepositorioSignosVitales
     {
-         private readonly AppContext _appContext;
+         private readonly AppContext _appContext = new AppContext();
 
-        public RepositorioSignosVitales(AppContext appContext)
-        {
-            _appContext = appContext;
-        }    
+       
      SignosVitales IRepositorioSignosVitales.AddSignosVitales(SignosVitales signo)
         {
           var SignoaAdicionado = _appContext.SignosVitales.Add(signo);

@@ -7,12 +7,9 @@ namespace Hospitalizacion.App.Persistencia
     public class RepositorioSugerenciaCuidado: IRepositorioSugerenciaCuidado
     {
 
-        private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
-        public RepositorioSugerenciaCuidado(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
+        
         
         SugerenciaCuidado IRepositorioSugerenciaCuidado.AddSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado)
         {

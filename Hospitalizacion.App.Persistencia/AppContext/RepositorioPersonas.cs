@@ -7,12 +7,8 @@ namespace Hospitalizacion.App.Persistencia
 {
     public class RepositorioPersonas : IRepositorioPersonas
     {
-      private readonly AppContext _appContext;
+      private readonly AppContext _appContext = new AppContext();
 
-        public RepositorioPersonas(AppContext appContext)
-        {
-            _appContext = appContext;
-        }    
 
         Persona IRepositorioPersonas.AddPersona(Persona persona)
         {
