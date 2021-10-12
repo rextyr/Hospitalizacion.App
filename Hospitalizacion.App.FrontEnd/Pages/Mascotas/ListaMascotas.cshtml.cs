@@ -16,6 +16,9 @@ namespace Hospimascotas.App.Frontend.Pages
         
          public IEnumerable<MascotaEnferma> MascotasEnfermas {get ; set;}
 
+         
+         
+
         public ListaMascotasModel(IRepositorioMascotas _repoMascotas)
          {
              this._repoMascotas=_repoMascotas;
@@ -24,6 +27,8 @@ namespace Hospimascotas.App.Frontend.Pages
         public void OnGet()
         {
            MascotasEnfermas=_repoMascotas.GetAllMascotasEnfermas();
+          
+          
         }
     }
 }

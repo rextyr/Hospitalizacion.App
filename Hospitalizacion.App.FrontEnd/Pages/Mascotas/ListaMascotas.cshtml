@@ -2,3 +2,19 @@
 @model Hospimascotas.App.Frontend.Pages.ListaMascotasModel
 @{
 }
+<h1>Mascotas</h1>
+<table>
+  <thead>
+      <tr>
+         <th scope="Col">Nombre </th> 
+         <th scope="Col">TipoMascota</th> 
+         <th scope="Col">Genero</th> 
+         <th scope="Col">Raza </th> 
+         <th scope="Col">MedicoEncargado</th> 
+      </tr>
+  </thead>
+  @foreach (var mascota in ListaMascotasModel.MascotaEnferma)
+  {
+    
+  }
+</table>
