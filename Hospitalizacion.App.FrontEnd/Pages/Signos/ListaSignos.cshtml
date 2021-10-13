@@ -2,3 +2,26 @@
 @model Hospimascotas.App.Frontend.Pages.ListaSignosModel
 @{
 }
+<h1>Lista de Registros</h1>
+
+<table class="table">
+  <thead>
+      <tr>
+         <th scope="col">Registro del Signo</th> 
+         <th scope="col">Tipo de Signo</th> 
+         <th scope="col">Valor</th> 
+         <th scope="col">Id de MascotaEnferma</th> 
+      </tr>
+  </thead>
+
+  @foreach (var signos in @Model.SignosVitalesl)
+  {
+      <tr>
+          <td>@signos.FechaHora</td>
+          <td>@signos.Signo</td>
+          <td>@signos.Valor/td>
+          <td>@signos.MascotaEnfermaId</td>
+          <td></td>
+      </tr>
+  }
+</table>
