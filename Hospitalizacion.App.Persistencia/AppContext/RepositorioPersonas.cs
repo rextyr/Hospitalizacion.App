@@ -35,10 +35,18 @@ namespace Hospitalizacion.App.Persistencia
             return _appContext.Dueños;
         }
 
+         
+          IEnumerable<AuxiliarVeterinario> IRepositorioPersonas.GetAllAuxiliar()
+        {
+            return _appContext.AuxiliaresVeterinarios;            
+        }
+
+         
           IEnumerable<MedicoVeterinario> IRepositorioPersonas.GetAllMedicoVeterinario()
         {
             return _appContext.MedicosVeterianarios;            
         }
+
 
          Persona IRepositorioPersonas.GetPersona(int idPersona)
         {

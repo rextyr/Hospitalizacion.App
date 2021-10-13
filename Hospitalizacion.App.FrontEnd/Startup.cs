@@ -27,6 +27,10 @@ namespace Hospitalizacion.App.FrontEnd
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioMascotas, RepositorioMascotas>();
+            services.AddSingleton<IRepositorioPersonas, RepositorioPersonas>();
+            services.AddSingleton<IRepositorioHistoria, RepositorioHistoria>();
+            services.AddSingleton<IRepositorioSignosVitales, RepositorioSignosVitales>();
+            services.AddSingleton<IRepositorioSugerenciaCuidado, RepositorioSugerenciaCuidado>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

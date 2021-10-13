@@ -3,18 +3,28 @@
 @{
 }
 <h1>Mascotas</h1>
-<table>
+
+<a class="btn btn-primary"  asp-page="./Crear">Nuevo Paciente</a>
+
+<table class="table">
   <thead>
       <tr>
-         <th scope="Col">Nombre </th> 
-         <th scope="Col">TipoMascota</th> 
-         <th scope="Col">Genero</th> 
-         <th scope="Col">Raza </th> 
-         <th scope="Col">MedicoEncargado</th> 
+         <th scope="col">Nombre </th> 
+         <th scope="col">TipoMascota</th> 
+         <th scope="col">Genero</th> 
+         <th scope="col">Raza </th> 
+         <th scope="col">MedicoEncargado</th> 
       </tr>
   </thead>
-  @foreach (var mascota in ListaMascotasModel.MascotaEnferma)
+
+  @foreach (var mascota in @Model.MascotasEnfermas)
   {
-    
+      <tr>
+          <td>@mascota.Nombre</td>
+          <td>@mascota.TipoMascota</td>
+          <td>@mascota.Genero</td>
+          <td>@mascota.Raza</td>
+          <td></td>
+      </tr>
   }
 </table>

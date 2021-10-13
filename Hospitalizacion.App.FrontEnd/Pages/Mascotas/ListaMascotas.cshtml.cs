@@ -15,10 +15,7 @@ namespace Hospimascotas.App.Frontend.Pages
          private readonly IRepositorioMascotas _repoMascotas;
         
          public IEnumerable<MascotaEnferma> MascotasEnfermas {get ; set;}
-
          
-         
-
         public ListaMascotasModel(IRepositorioMascotas _repoMascotas)
          {
              this._repoMascotas=_repoMascotas;

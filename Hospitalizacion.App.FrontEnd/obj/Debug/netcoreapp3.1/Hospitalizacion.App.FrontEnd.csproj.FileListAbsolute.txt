@@ -80,3 +80,6 @@ C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.FrontEnd\obj\Debug\netcoreapp
 C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.FrontEnd\obj\Debug\netcoreapp3.1\Hospitalizacion.App.FrontEnd.dll
 C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.FrontEnd\obj\Debug\netcoreapp3.1\Hospitalizacion.App.FrontEnd.pdb
 C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.FrontEnd\obj\Debug\netcoreapp3.1\Hospitalizacion.App.FrontEnd.genruntimeconfig.cache
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\Crear.cshtml.g.cs
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Auxiliares\ListaAuxiliares.cshtml.g.cs
+C:\Prueba2\Hospitalizacion.App\Hospitalizacion.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Signos\ListaSignos.cshtml.g.cs

@@ -10,6 +10,7 @@ namespace Hospitalizacion.App.Persistencia
         IEnumerable<Persona> GetAllPersona();
         IEnumerable<MedicoVeterinario> GetAllMedicoVeterinario();
         IEnumerable<Dueño> GetAllDueño();
+         IEnumerable<AuxiliarVeterinario> GetAllAuxiliar();
         Persona AddPersona(Persona persona);
         Persona UpdatePersona(Persona persona);
         Dueño UpdateDueño(Dueño dueño);
