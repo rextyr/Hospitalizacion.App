@@ -53,6 +53,12 @@ namespace Hospitalizacion.App.Persistencia
              return _appContext.Personas.FirstOrDefault( p => p.Id==idPersona);
           
         }
+        
+         AuxiliarVeterinario IRepositorioPersonas.GetAuxiliar(int idPersona)
+        {
+             return _appContext.AuxiliaresVeterinarios.FirstOrDefault( p => p.Id==idPersona);
+          
+        }
       
          MedicoVeterinario IRepositorioPersonas.GetMedico(int idMedico)
         {

@@ -1,14 +1,19 @@
 ﻿@page
 @using  Hospitalizacion.App.Dominio;
-@model Hospimascotas.App.Frontend.Pages.Auxiliares.RegistroAuxModel
+@model Hospimascotas.App.Frontend.Pages.Auxiliares.ActualizarAuxModel
 @{
 }
-<h1>Registro de Auxiliar</h1>
+<h1>Actualizar Registro</h1>
 
 <a class="btn btn-primary"  asp-page="./ListaAuxiliares">Volver a Auxiliares</a>
 
 <form method="post">
 
+<div class="form-group">
+     <label asp-for="auxiliar.Id"></label>
+     <input asp-for="auxiliar.Id" class="form-control" readonly>
+
+</div>
 <div class="form-group">
      <label asp-for="auxiliar.Nombre"></label>
      <input asp-for="auxiliar.Nombre" class="form-control" required="required">
@@ -38,5 +43,5 @@
 
 </div>
 
-<button type="submit" class="btn btn-primary">Registrar Auxiliar</button>
+<button type="submit" class="btn btn-primary">Actualizar Auxiliar</button>
 </form>

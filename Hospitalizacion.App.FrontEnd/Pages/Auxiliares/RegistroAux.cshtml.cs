@@ -24,11 +24,11 @@ namespace Hospimascotas.App.Frontend.Pages.Auxiliares
               auxiliar= new AuxiliarVeterinario();
         }
 
-        public void OnPost(AuxiliarVeterinario auxiliar )
+        public IActionResult OnPost(AuxiliarVeterinario auxiliar )
         {
 
             _repositorioPersonas.AddPersona(auxiliar);
-            
+            return RedirectToPage("ListaAuxiliares");
         }
         
         

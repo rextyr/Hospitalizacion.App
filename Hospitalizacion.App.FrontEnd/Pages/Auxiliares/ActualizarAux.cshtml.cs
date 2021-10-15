@@ -4,20 +4,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Hospitalizacion.App.Persistencia;
 using Hospitalizacion.App.Dominio;
-
+using Hospitalizacion.App.Persistencia;
 
 namespace Hospimascotas.App.Frontend.Pages.Auxiliares
 {
-    public class EliminarAuxModel : PageModel
+    public class ActualizarAuxModel : PageModel
     {
-
-       public readonly IRepositorioPersonas _repositorioPersona;
+        public readonly IRepositorioPersonas _repositorioPersona;
 
        public AuxiliarVeterinario auxiliar { get; set; }
 
-       public EliminarAuxModel(IRepositorioPersonas _repositorioPersona)
+       public ActualizarAuxModel(IRepositorioPersonas _repositorioPersona)
        {
            this._repositorioPersona=_repositorioPersona;
        }
@@ -32,9 +30,9 @@ namespace Hospimascotas.App.Frontend.Pages.Auxiliares
                 return Page();
             }
         }
-        public IActionResult OnPost(int id)
+        public IActionResult OnPost(AuxiliarVeterinario auxiliar)
         {
-            _repositorioPersona.DeletePersona(id);
+            _repositorioPersona.UpdatePersona(auxiliar);
             return RedirectToPage("ListaAuxiliares");
         }
     }

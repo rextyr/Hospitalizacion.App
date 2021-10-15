@@ -17,19 +17,17 @@
       </tr>
   </thead>
 
-  @foreach (var Auxiliar in @Model.Auxiliares)
+  @foreach (var A in @Model.Auxiliares)
   {
       <tr>
-          <td>@Auxiliar.Nombre</td>
-          <td>@Auxiliar.Apellido</td>
-          <td>@Auxiliar.Numero</td>
-          <td>@Auxiliar.No_Certificado</td>
-          @if (Auxiliar.)
-          {
-              
-          }
-          <td><a class="btn btn-primary"  asp-page="./RegistroAux">Actualizar</a></td>
-          <td><a class="btn btn-primary"  asp-page="./RegistroAux">Eliminar</a></td>
+          <td>@A.Nombre</td>
+          <td>@A.Apellido</td>
+          <td>@A.Numero</td>
+          <td>@A.No_Certificado</td>
+          
+         
+          <td><a class="btn btn-secondary"  asp-page="./ActualizarAux"  asp-route-id="@A.Id">Actualizar</a></td>
+          <td><a class="btn btn-secondary"  asp-page="./EliminarAux"  asp-route-id="@A.Id">Eliminar</a></td>
           <td></td>
       </tr>
   }

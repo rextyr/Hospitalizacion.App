@@ -19,5 +19,6 @@ namespace Hospitalizacion.App.Persistencia
         void DeletePersona (int idPersona);
         Persona GetPersona(int idPersona);
         MedicoVeterinario GetMedico(int idMedico);
+        AuxiliarVeterinario GetAuxiliar(int idMedico);
     }
 }
