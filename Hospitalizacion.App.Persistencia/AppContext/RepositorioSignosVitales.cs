@@ -8,7 +8,7 @@ namespace Hospitalizacion.App.Persistencia
     {
          private readonly AppContext _appContext = new AppContext();
 
-       
+
      SignosVitales IRepositorioSignosVitales.AddSignosVitales(SignosVitales signo)
         {
           var SignoaAdicionado = _appContext.SignosVitales.Add(signo);

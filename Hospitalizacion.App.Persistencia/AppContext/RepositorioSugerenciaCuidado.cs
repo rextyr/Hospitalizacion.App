@@ -8,8 +8,7 @@ namespace Hospitalizacion.App.Persistencia
     {
 
         private readonly AppContext _appContext = new AppContext();
-
-        
+         
         
         SugerenciaCuidado IRepositorioSugerenciaCuidado.AddSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado)
         {

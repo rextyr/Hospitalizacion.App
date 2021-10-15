@@ -7,9 +7,7 @@ namespace Hospitalizacion.App.Persistencia
     public class RepositorioHistoria:IRepositorioHistoria
     {
 
-         private readonly AppContext _appContext = new AppContext();
-
-    
+         private readonly AppContext _appContext = new AppContext();    
         
         Historia IRepositorioHistoria.AddHistoria(Historia historia)
         {

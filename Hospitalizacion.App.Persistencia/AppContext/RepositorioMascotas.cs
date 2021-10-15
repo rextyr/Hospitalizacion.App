@@ -8,7 +8,6 @@ namespace Hospitalizacion.App.Persistencia
     {
          private readonly AppContext _appContext= new AppContext();
 
-         
     MascotaEnferma IRepositorioMascotas.AddMascotaEnferma(MascotaEnferma mascotaEnferma)
         {
           var mascotaEnfermaadicionada = _appContext.MascotasEnfermas.Add(mascotaEnferma);

@@ -6,7 +6,7 @@
 
 <h1>Auxiliares en Funcion</h1>
 
-<a class="btn btn-primary"  asp-page="./Crear">Registrar Nuevo Auxiliar</a>
+<a class="btn btn-primary"  asp-page="./RegistroAux">Registrar Nuevo Auxiliar</a>
 <table class="table">
   <thead>
       <tr>
@@ -24,6 +24,12 @@
           <td>@Auxiliar.Apellido</td>
           <td>@Auxiliar.Numero</td>
           <td>@Auxiliar.No_Certificado</td>
+          @if (Auxiliar.)
+          {
+              
+          }
+          <td><a class="btn btn-primary"  asp-page="./RegistroAux">Actualizar</a></td>
+          <td><a class="btn btn-primary"  asp-page="./RegistroAux">Eliminar</a></td>
           <td></td>
       </tr>
   }

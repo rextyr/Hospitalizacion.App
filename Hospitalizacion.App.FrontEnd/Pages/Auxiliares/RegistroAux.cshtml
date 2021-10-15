@@ -1,5 +1,42 @@
 ﻿@page
+@using  Hospitalizacion.App.Dominio;
 @model Hospimascotas.App.Frontend.Pages.Auxiliares.RegistroAuxModel
 @{
 }
 <h1>Registro de Auxiliar</h1>
+
+<a class="btn btn-primary"  asp-page="./ListaAuxiliares">Volver a Auxiliares</a>
+
+<form method="post">
+
+<div class="form-group">
+     <label asp-for="auxiliar.Nombre"></label>
+     <input asp-for="auxiliar.Nombre" class="form-control" required="required">
+
+</div>
+<div class="form-group">
+     <label asp-for="auxiliar.Apellido"></label>
+     <input asp-for="auxiliar.Apellido" class="form-control" required="required">
+
+</div>
+<div class="form-group">
+     <label asp-for="auxiliar.Numero"></label>
+     <input asp-for="auxiliar.Numero" class="form-control" required="required">
+
+</div>
+<div class="form-group">
+     <label asp-for="auxiliar.Genero"></label>
+     <select asp-for="auxiliar.Genero" asp-items="Html.GetEnumSelectList<Genero>()"form-control" required="required"></select>
+</div>
+<div class="form-group">
+     <label asp-for="auxiliar.No_Certificado"></label>
+     <input asp-for="auxiliar.No_Certificado" class="form-control" required="required">
+</div>
+<div class="form-group">
+     <label asp-for="auxiliar.HorasLaborales"></label>
+     <input asp-for="auxiliar.HorasLaborales" class="form-control" required="required">
+
+</div>
+
+<button type="submit" class="btn btn-primary">Registrar Auxiliar</button>
+</form>
